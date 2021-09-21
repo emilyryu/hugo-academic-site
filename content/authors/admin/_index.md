@@ -1,39 +1,36 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Emily Ryu
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: (she/her/hers)
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: CS @ Cornell University
+  url: https://www.cs.cornell.edu
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: UPhD student in Computer Science at Cornell University.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Algorithm design
+- Game theory
+- Combinatorics
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Computer Science
+    institution: Cornell University
+    year: present
+  - course: A.B. in Chemistry with minors in Applied Math & Computer Science
+    institution: Princeton University
+    year: 2017-2021
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -43,18 +40,10 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '/#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://github.com/emilyryu
+
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
@@ -69,9 +58,9 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+I'm a first year PhD student in Computer Science at Cornell University, advised by [Prof. Éva Tardos](https://www.cs.cornell.edu/~eva/) and [Prof. Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/). My interests are broadly in theoretical computer science, especially algorithmic game theory, mechanism design, and networks. Currently, I'm working on calibration and radicalization in recommender systems and social networks. 
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Previously, I graduated from Princeton University with an A.B. in Chemistry and minors in Applied Math and Computer Science, where I worked with [Prof. Matt Weinberg](https://www.cs.princeton.edu/~smattw/) on revenue optimization in multi-item auctions. I also wrote my chemistry senior thesis on the experimental study and computational modeling of heterocyclic hydroamination reactions under the supervision of [Prof. Robert Knowles](https://knowleslab.princeton.edu/).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV_eryu.pdf" "newtab" >}}(CV (updated Sep 2021){{< /staticref >}}.
