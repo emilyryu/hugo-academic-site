@@ -63,4 +63,4 @@ I'm a first year PhD student in Computer Science at Cornell University, advised 
 Previously, I graduated from Princeton University with an A.B. in Chemistry and minors in Applied Math and Computer Science, where I worked with [Prof. Matt Weinberg](https://www.cs.princeton.edu/~smattw/) on revenue optimization in multi-item auctions. I also wrote my chemistry senior thesis on the experimental study and computational modeling of heterocyclic hydroamination reactions under the supervision of [Prof. Robert Knowles](https://knowleslab.princeton.edu/).
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV_eryu.pdf" "newtab" >}}(CV (updated Sep 2021){{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV_eryu.pdf" "newtab" >}}CV (updated Sep 2021){{< /staticref >}}.
