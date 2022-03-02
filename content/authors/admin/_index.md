@@ -14,7 +14,7 @@ organizations:
   url: https://www.cs.cornell.edu
 
 # Short bio (displayed in user profile at end of posts)
-bio: UPhD student in Computer Science at Cornell University.
+bio: PhD student in Computer Science at Cornell University.
 
 # Interests to show in About widget
 interests:
@@ -58,9 +58,9 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I'm a first year PhD student in Computer Science at Cornell University, advised by [Prof. Éva Tardos](https://www.cs.cornell.edu/~eva/) and [Prof. Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/). My interests are broadly in theoretical computer science, especially algorithmic game theory, mechanism design, and networks. Currently, I'm working on calibration and radicalization in recommender systems and social networks. 
+I'm a first year PhD student in Computer Science at Cornell University, advised by [Prof. Éva Tardos](https://www.cs.cornell.edu/~eva/) and [Prof. Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/). My interests are broadly in theoretical computer science, especially algorithmic game theory, mechanism design, and networks. Currently, I'm working on extensions of submodular optimization to ordered settings, such as diversification of recommender systems. 
 
 Previously, I graduated from Princeton University with an A.B. in Chemistry and minors in Applied Math and Computer Science, where I worked with [Prof. Matt Weinberg](https://www.cs.princeton.edu/~smattw/) on revenue optimization in multi-item auctions. I also wrote my chemistry senior thesis on the experimental study and computational modeling of heterocyclic hydroamination reactions under the supervision of [Prof. Robert Knowles](https://knowleslab.princeton.edu/).
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV_eryu.pdf" "newtab" >}}CV (updated Sep 2021){{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV_eryu.pdf" "newtab" >}}CV (updated Mar 2022){{< /staticref >}}.
