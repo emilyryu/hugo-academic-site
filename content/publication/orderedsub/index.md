@@ -10,10 +10,10 @@ authors:
 - Eva Tardos
 
 # Author notes (optional)
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-- "Equal contribution"
+# author_notes:
+# - "Equal contribution"
+# - "Equal contribution"
+# - "Equal contribution"
 
 date: "2022-03-02T00:00:00Z"
 doi: "10.48550/arXiv.2203.00233"
