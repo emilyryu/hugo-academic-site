@@ -18,7 +18,7 @@ bio: PhD student in Computer Science at Cornell University.
 
 # Interests to show in About widget
 interests:
-- Algorithm game theory
+- Algorithmic game theory
 - Mechanism design
 - Combinatorics
 - Networks

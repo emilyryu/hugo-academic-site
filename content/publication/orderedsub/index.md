@@ -1,5 +1,5 @@
 ---
-title: "Ordered Submodularity and its Applications to Diversifying Recommendations"
+title: "Calibrated Recommendations for Users with Decaying Attention"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -15,11 +15,11 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2022-03-02T00:00:00Z"
-doi: "10.48550/arXiv.2203.00233"
+date: "2023-02-07T00:00:00Z"
+doi: "10.48550/ARXIV.2302.03239"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-03-02T00:00:00Z"
+publishDate: "2023-02-07T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -31,10 +31,11 @@ publication_types: ["3"]
 publication: arXiv preprint
 publication_short: arXiv preprint
 
-abstract: A fundamental task underlying many important optimization problems, from influence maximization to sensor placement to content recommendation, is to select the optimal group of _k_ items from a larger set. Submodularity has been very effective in allowing approximation algorithms for such subset selection problems. However, in several applications, we are interested not only in the elements of a set, but also the _order_ in which they appear, breaking the assumption that all selected items receive equal consideration. One such category of applications involves the presentation of search results, product recommendations, news articles, and other content, due to the well-documented phenomenon that humans pay greater attention to higher-ranked items. As a result, optimization in content presentation for diversity, user coverage, calibration, or other objectives more accurately represents a sequence selection problem, to which traditional submodularity approximation results no longer apply. Although extensions of submodularity to sequences have been proposed, none is designed to model settings where items contribute based on their position in a ranked list, and hence they are not able to express these types of optimization problems. In this paper, we aim to address this modeling gap. Here, we propose a new formalism of _ordered submodularity_ that captures these ordering problems in content presentation, and more generally a category of optimization problems over ranked sequences in which different list positions contribute differently to the objective function. We analyze the natural ordered analogue of the greedy algorithm and show that it provides a 2-approximation. We also show that this bound is tight, establishing that our new framework is conceptually and quantitatively distinct from previous formalisms of set and sequence submodularity.
+abstract: Recommendation systems capable of providing diverse sets of results are a focus of increasing importance, with motivations ranging from fairness to novelty and other aspects of optimizing user experience. One form of diversity of recent interest is _calibration_, the notion that personalized recommendations should reflect the full distribution of a user's interests, rather than a single predominant category --- for instance, a user who mainly reads entertainment news but also wants to keep up with news on the environment and the economy would prefer to see a mixture of these genres, not solely entertainment news. Existing work has formulated calibration as a subset selection problem; this line of work observes that the formulation requires the unrealistic assumption that all recommended items receive equal consideration from the user, but leaves as an open question the more realistic setting in which user attention decays as they move down the list of results. <br /> <br /> In this paper, we consider calibration with decaying user attention under two different models. In both models, there is a set of underlying genres that items can belong to. In the first setting, where items are represented by fine-grained mixtures of genre percentages, we provide a $(1-1/e)$-approximation algorithm by extending techniques for constrained submodular optimization. In the second setting, where items are coarsely binned into a single genre each, we surpass the $(1-1/e)$ barrier imposed by submodular maximization and give a $2/3$-approximate greedy algorithm. Our work thus addresses the problem of capturing ordering effects due to decaying attention, allowing for the extension of near-optimal calibration from recommendation _sets_ to recommendation _lists_.
+
 
 # Summary. An optional shortened abstract.
-summary: We present a new formalism of _ordered submodularity_ that captures a useful class of optimization problems over ranked sequences, in which different list positions contribute differently to the objective function. We show that the natural greedy algorithm is a 2-approximation, and that this performance guarantee is tight. 
+summary: We study _calibrated recommendations_ for users whose attention decays over the course of a ranked list, meaning that not all recommended items receive equal consideration. For a _distributional_ model of genres, we extend tools from submodular optimization to provide a $(1-1/e)$-approximation algorithm to calibration. For a _discrete_ model of genres, we show that the natural greedy algorithm is a $2/3$-approximation. Our work thus addresses the problem of capturing ordering effects due to decaying attention, allowing for the extension of near-optimal calibration from recommendation _sets_ to recommendation _lists_. <br /> (This paper incorporates and supersedes our earlier paper on [ordered submodularity](https://arxiv.org/abs/2203.00233).)
 
 tags: []
 
@@ -46,7 +47,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2203.00233.pdf'
+url_pdf: 'https://arxiv.org/pdf/2302.03239.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -55,12 +56,14 @@ url_slides: ''
 url_source: ''
 url_video: ''
 
+# math = true
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ""
-  preview_only: false
+# image:
+# caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#  focal_point: ""
+#  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
