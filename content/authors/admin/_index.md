@@ -20,7 +20,7 @@ bio: PhD student in Computer Science at Cornell University.
 interests:
 - Algorithmic game theory
 - Mechanism design
-- Combinatorics
+- Combinatorial optimization
 - Networks
 
 
@@ -62,11 +62,11 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I'm a second-year PhD student in Computer Science at Cornell University, advised by [Prof. Éva Tardos](https://www.cs.cornell.edu/~eva/) and [Prof. Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/). My interests are broadly in theoretical computer science, particularly algorithmic game theory, mechanism design, and networks. Currently, I'm working on generalizing submodularity to ordered sequences and lists, with applications in diversification of recommender systems. 
+I'm a rising third-year PhD student in Computer Science at Cornell University. I'm very fortunate to be advised by [Prof. Éva Tardos](https://www.cs.cornell.edu/~eva/) and [Prof. Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/), and be supported by the [NSF GRFP](https://www.nsfgrfp.org/). My research interests span algorithmic game theory, combinatorial optimization, and networks, particularly with more realistic models of behavioral and cognitive constraints. Recently, I've been thinking about matching markets and recommender systems. 
 
 Previously, I graduated from Princeton University with an A.B. in Chemistry and minors in Applied Math and Computer Science, where I worked with [Prof. Matt Weinberg](https://www.cs.princeton.edu/~smattw/) on Bayesian auction design for multi-item revenue maximization. I also wrote my senior thesis in physical organic chemistry under the supervision of [Prof. Robert Knowles](https://knowleslab.princeton.edu/).
 
-Non-academic interests (many starting with a C, some supported by images): {{< staticref "uploads/coffee.jpg" "newtab" >}}caffeine{{< /staticref >}}, {{< staticref "uploads/pokki.jpg" "newtab" >}}cats{{< /staticref >}}, {{< staticref "uploads/colouring.jpg" "newtab" >}}colouring-of-hair{{< /staticref >}}, crafting, dance, yoga
+Non-academic interests (many starting with a C and supported by images): {{< staticref "uploads/coffee.jpg" "newtab" >}}caffeine{{< /staticref >}}, {{< staticref "uploads/pokki.jpg" "newtab" >}}cats{{< /staticref >}}, {{< staticref "uploads/colouring.jpg" "newtab" >}}colouring-of-hair{{< /staticref >}}, [crafting](https://www.instagram.com/egg.t.arts/), dance, yoga
 
 
-{{< icon name="download" pack="fas" >}}{{< staticref "uploads/CV_eryu.pdf" "newtab" >}}CV (updated Aug 2022){{< /staticref >}}
+{{< icon name="download" pack="fas" >}}{{< staticref "uploads/CV_eryu.pdf" "newtab" >}}CV (updated Jun 2023){{< /staticref >}}
